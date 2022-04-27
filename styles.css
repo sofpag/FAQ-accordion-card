@@ -1,0 +1,36 @@
+:root {
+    --text-blue: hsl(238, 29%, 16%);
+    --text-red: hsl(14, 88%, 65%);
+    --text-dark-gray-blue: hsl(237, 12%, 33%);
+    --text-gray-blue: hsl(240, 6%, 50%);
+    --grandient-violet: hsl(273, 75%, 66%);
+    --grandient-blue: hsl(240, 73%, 65%);
+    --dividers-gray: hsl(240, 5%, 91%);
+}
+
+* {
+    box-sizing: border-box;
+}
+body {
+    color: var(--text-gray-blue);
+    font-size: 12px;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+}
+
+.grandient {
+    height: 100vh;
+    background-image: linear-gradient(var(--grandient-violet), var(--grandient-blue));
+}
+
+.main-box {
+    width: 80vw;
+    height: 59%;
+    margin: 20% auto;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 30px;
+}
+
+.question-box_p {
+    display: none;
+}
