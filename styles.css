@@ -11,7 +11,9 @@
 * {
     box-sizing: border-box;
 }
+
 body {
+    height: 100vh;
     color: var(--text-gray-blue);
     font-size: 12px;
     font-family: 'Overpass', sans-serif;
@@ -19,14 +21,21 @@ body {
 }
 
 .grandient {
-    height: 100vh;
     background-image: linear-gradient(var(--grandient-violet), var(--grandient-blue));
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
 .main-box {
-    width: 80vw;
-    height: 59%;
-    margin: 20% auto;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 800px;
     background-color: hsl(0, 0%, 100%);
     border-radius: 30px;
 }
